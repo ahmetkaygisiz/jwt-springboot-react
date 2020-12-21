@@ -9,14 +9,9 @@ _Public :_
     -H 'Content-Type: application/json' \
     -d '{"username":"test","password":"test"}'`
 
-Output :
-
-`
-{
-    "message":"Login successful.",
-    "data":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiZXhwIjoxNjA4MzI1NTMzLCJpYXQiOjE2MDgzMDc1MzN9.JheoGilMU5Kvz1WhuwE43qhsMmpOfu--aFOMD6v2Upg"
-}
-`
+Output : `{ "message":"Login successful.",
+   "data":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiZXhwIjoxNjA4MzI1NTMzLCJpYXQiOjE2MDgzMDc1MzN9.JheoGilMU5Kvz1WhuwE43qhsMmpOfu--aFOMD6v2Upg" }`
+   
 ---    
 - /api/1.0/signup : Returns message. 
 
